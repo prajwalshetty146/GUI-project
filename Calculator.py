@@ -56,7 +56,6 @@ def buttonEqual():
         myEntry.insert(0, f_num * int(second_num))
     if math == 'div':
         myEntry.insert(0, f_num / int(second_num))
-#Define buttons
 
 button1 = Button(root, command= lambda: buttonClick(1), text="1", padx=40, pady=20);
 button2 = Button(root, command= lambda: buttonClick(2), text="2", padx=40, pady=20);
@@ -75,7 +74,6 @@ button_mul=Button(root, command= buttonMul, text='*', padx=40, pady=20);
 button_div=Button(root, command= buttonDiv, text='÷', padx=40, pady=20);
 button_clear=Button(root, command= buttonClear, text='Clear', padx=29.5, pady=20);
 
-#Button placement
 button1.grid(row=3,column=0)
 button2.grid(row=3,column=1)
 button3.grid(row=3,column=2)
